@@ -1,0 +1,24 @@
+debug: true
+logger:
+  level: debug
+
+router:
+  port: :8082
+
+filscout:
+  #系统日志输出配置
+  verbose: false
+  scheme: https
+  host: api2.filscout.com
+  uri: /api/v2/miner/
+  miners:
+    - "f024511"
+    - "f0230861"
+    - "f084155"
+    - "f0475305"
+    - "f048975"
+    - "f01201012"
+    - "f048986"
+    - "f061170"
+    - "f061174"
+    - "f01338337"
