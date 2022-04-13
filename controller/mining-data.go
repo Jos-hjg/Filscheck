@@ -10,14 +10,14 @@ import (
 	"test/config"
 )
 
-type miningdata struct {
+type miningdataRes struct {
 	mu sync.Mutex
 	wait sync.WaitGroup
 	res []Filscout.MiningData
 }
 
 func GetMiningData(ctx *gin.Context)  {
-	res := miningdata{}
+	res := miningdataRes{}
 	res.wait.Add(len(config.C.Filscout.Miners))
 	for _, miner := range config.C.Filscout.Miners {
 		go func(miner string) {
