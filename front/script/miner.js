@@ -107,7 +107,7 @@ function GetMinerInfos(){
                                             <div class="more_click" data-v-d66790d0 data-v-9eb4ae2e>
                                                 <span data-v-d66790d0 data-v-9eb4ae2e>产出统计</span></div>
                                             <div class="time-main" data-v-36ae89d1 data-v-9eb4ae2e>
-                                                <span class="item selected" data-v-36ae89d1>24时</span><span class="item" data-v-36ae89d1>7天</span><span class="item" data-v-36ae89d1>30天</span>
+                                                <span class="item selected" data-v-36ae89d1>24时</span>
                                             </div>
                                         </div>
                                     </div>
