@@ -24,10 +24,10 @@ function GetMinerInfos(){
     $.ajax(miner_url,{
         type:"GET",
         success: function (miner_res) {
-            let json = {"statsType":"24h"};
+            // let json = {"statsType":"24h"};
             $.ajax(mining_url, {
                 type: "GET",
-                data:JSON.stringify(json),
+                // body:JSON.stringify(json),
                 success: function (mining_res) {
 
                     let str = ""

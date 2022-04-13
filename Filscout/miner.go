@@ -17,16 +17,16 @@ type MinerData struct {
 	ActorType string `json:"actorType"`
 	Balance float64 `json:"balance"`
 	BalanceStr string `json:"balanceStr"`
-	QualityPower int64 `json:"qualityPower"`
+	QualityPower float64 `json:"qualityPower"`
 	QualityPowerStr string `json:"qualityPowerStr"`
 	QualityPowerPercent float64 `json:"qualityPowerPercent"`
 	QualityPowerPercentStr string `json:"qualityPowerPercentStr"`
-	RawPower int64 `json:"rawPower"`
+	RawPower float64 `json:"rawPower"`
 	RawPowerStr string `json:"rawPowerStr"`
 	PeerID string `json:"peerId"`
 	Owner string `json:"owner"`
 	Worker string `json:"worker"`
-	Available int64 `json:"available"`
+	Available float64 `json:"available"`
 	AvailableStr string `json:"availableStr"`
 	SectorsPledge float64 `json:"sectorsPledge"`
 	SectorsPledgeStr string `json:"sectorsPledgeStr"`
@@ -35,7 +35,7 @@ type MinerData struct {
 	FeeDebtStr string `json:"feeDebtStr"`
 	IP string `json:"ip"`
 	Location string `json:"location"`
-	SectorSize int64 `json:"sectorSize"`
+	SectorSize float64 `json:"sectorSize"`
 	SectorSizeStr string `json:"sectorSizeStr"`
 	SectorCount int `json:"sectorCount"`
 	ActiveCount int `json:"activeCount"`
