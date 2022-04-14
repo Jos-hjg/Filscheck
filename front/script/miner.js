@@ -1,7 +1,6 @@
 "use strict"
 
 $(function (){
-    // $('#miner-list div').empty()
     GetMinerInfos()
     // GetMinerInfos("f084155")
     // GetMinerInfos("f061170")
